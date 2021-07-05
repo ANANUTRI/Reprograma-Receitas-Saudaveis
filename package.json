@@ -1,0 +1,27 @@
+{
+  "name": "reprograma-receitas-saudaveis",
+  "version": "1.0.0",
+  "description": "Api destinado a construção de receitas saudáveis",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANANUTRI/Reprograma-Receitas-Saudaveis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANANUTRI/Reprograma-Receitas-Saudaveis/issues"
+  },
+  "homepage": "https://github.com/ANANUTRI/Reprograma-Receitas-Saudaveis#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.1",
+    "mongose": "0.0.2-security",
+    "nodemon": "^2.0.9"
+  }
+}
