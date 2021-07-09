@@ -6,10 +6,10 @@ app.use(express.json())
 const db = require('./src/data/dataConfig')
 db.connect()
 
-const receita = require('./src/routes/receitasRoutes.routes')
+//const receita = require('./src/routes/receitasRoutes.routes')
 
 
-app.use('/receitas', titulo)
+//app.use('/receitas' , receita)
 
 
 

@@ -1,18 +1,8 @@
 const express = require('express')
 const router = express.Router()
-const mongoose = require('mongoose')
-const receita = require('../models/receitaSchema')
+const controller = require('../controllers/receitasController')
 
-router.post('/', async (req, res)=>{
-   const receitas = new receitas({
-       _id: mongoose.Schema.Types.ObjectId(),
-       nome: req.body.nome,
-       dataDeCriação: req.body.dataDeCriação
-   })
-    
-})
-
-
+router.post('/', controller.criaReceita)
 
 
 
